@@ -13,7 +13,7 @@ public class StepTracker
  public int activeDays() {
   int count = 0;
   for(int i = 0; i < steps.size(); i++) {
-   if(steps.get(i) >= stepsAcitve) {
+   if(steps.get(i) >= stepsActive) {
     count++;
    }
   }
