@@ -7,7 +7,7 @@ public class StepTracker
   stepsActive = uStepsActive;
   steps = new ArrayList<Integer>();
  }
- public addDailySteps(int daySteps) {
+ public void addDailySteps(int daySteps) {
   steps.add(daySteps);
  }
  public int activeDays() {
