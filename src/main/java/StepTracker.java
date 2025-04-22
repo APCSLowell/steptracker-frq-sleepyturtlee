@@ -7,6 +7,8 @@ public class StepTracker
   stepsActive = uStepsActive;
   steps = new ArrayList<Integer>();
  }
+
+ // remember return type is void
  public void addDailySteps(int daySteps) {
   steps.add(daySteps);
  }
@@ -19,6 +21,8 @@ public class StepTracker
   }
   return count;
  }
+ 
+ // address zero case
  public double averageSteps() {
   if(steps.size() == 0) {
    return 0;
